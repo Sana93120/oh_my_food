@@ -186,6 +186,11 @@ main .position-box .position-box p .intro {
   background-color: #f6f6f6;
 }
 
+.cartes{
+  display: grid;
+  row-gap: 1rem;
+}
+
 .carte{
   background-color: #fff;
   border-radius: 1rem;
@@ -214,6 +219,7 @@ main .position-box .position-box p .intro {
   display: flex;
   position: relative;
   align-items: center;
+  border-radius: 2rem;
 }
 .carte h3{
   margin: 0 0 0.25rem;
