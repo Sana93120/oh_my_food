@@ -196,6 +196,8 @@ header img{
 
 .barre p{
   margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .prix{
@@ -209,6 +211,9 @@ header img{
 .description{
   flex: 1;
   padding: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .button {
