@@ -10,7 +10,7 @@ body {
     text-decoration: none;
   }
 
-  .fa-arrow-left{
+  header .fa-regular{
     position: absolute;
     left: 2rem;
     height: 2rem;
@@ -19,13 +19,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateY(-50%);
     font-size: 1.2rem;
     color: #000;
-    margin-top: -15px;
-    font-weight: 900;
   }
 
-  
   header .logo {
     padding: 0.5px;
     box-shadow: 0 0 0.5rem;
@@ -84,7 +82,6 @@ body {
 
   .heart-button:hover .fa-solid{
     opacity: 1;
-    transform: scale(1);
   }
 
   .entrées h3{
@@ -194,6 +191,8 @@ body {
 
   .barre h4{
     margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .barre p{
